@@ -107,7 +107,7 @@ class Story extends React.PureComponent {
             onClick={() => this.onRequestClose(null, true)}
           />
           <h2>
-            <a href={this.state.data.url} target="_blank">
+            <a href={this.state.data.url} target="_blank" rel="noopener noreferrer">
               {this.state.data.title}
             </a>
           </h2>
