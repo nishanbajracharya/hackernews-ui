@@ -7,10 +7,10 @@ import Story from './views/story';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="/hackernews-ui">
         <div className="App">
           <Route path="/" component={List} />
-          <Route path="/:storyId" component={Story} />
+          <Route path="/story/:storyId" component={Story} />
         </div>
       </Router>
     );

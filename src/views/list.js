@@ -38,7 +38,7 @@ class ListItem extends React.PureComponent {
             <Link
               to={{
                 state: { data: this.state.data },
-                pathname: `/${this.props.id}`
+                pathname: `/story/${this.props.id}`
               }}
             >
               {this.state.data.title}
