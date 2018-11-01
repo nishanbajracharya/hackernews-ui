@@ -1,0 +1,13 @@
+{
+  "main.css": "/hackernews-ui/static/css/main.6ca8dc58.chunk.css",
+  "main.js": "/hackernews-ui/static/js/main.340021ed.chunk.js",
+  "main.js.map": "/hackernews-ui/static/js/main.340021ed.chunk.js.map",
+  "static/js/1.008df343.chunk.js": "/hackernews-ui/static/js/1.008df343.chunk.js",
+  "static/js/1.008df343.chunk.js.map": "/hackernews-ui/static/js/1.008df343.chunk.js.map",
+  "runtime~main.js": "/hackernews-ui/static/js/runtime~main.ff2ef48b.js",
+  "runtime~main.js.map": "/hackernews-ui/static/js/runtime~main.ff2ef48b.js.map",
+  "static/css/main.6ca8dc58.chunk.css.map": "/hackernews-ui/static/css/main.6ca8dc58.chunk.css.map",
+  "index.html": "/hackernews-ui/index.html",
+  "precache-manifest.6cb16f10012d58eef601c8ee4a36c314.js": "/hackernews-ui/precache-manifest.6cb16f10012d58eef601c8ee4a36c314.js",
+  "service-worker.js": "/hackernews-ui/service-worker.js"
+}

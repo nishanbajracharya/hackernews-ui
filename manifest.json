@@ -1,0 +1,45 @@
+{
+  "short_name": "Hacker News",
+  "name": "Hacker News",
+  "icons": [
+    {
+      "src": "images/android-icon-36x36.png",
+      "sizes": "36x36",
+      "type": "imageimages/png"
+    },
+    {
+      "src": "images/android-icon-48x48.png",
+      "sizes": "48x48",
+      "type": "imageimages/png"
+    },
+    {
+      "src": "images/android-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "imageimages/png"
+    },
+    {
+      "src": "images/android-icon-96x96.png",
+      "sizes": "96x96",
+      "type": "imageimages/png"
+    },
+    {
+      "src": "images/android-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "imageimages/png"
+    },
+    {
+      "src": "images/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "imageimages/png"
+    },
+    {
+      "src": "images/icon-480x480.png",
+      "sizes": "512x512",
+      "type": "imageimages/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#424242",
+  "background_color": "#fdfdfd"
+}
