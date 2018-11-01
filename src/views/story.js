@@ -7,7 +7,7 @@ import Loading from "../components/loading";
 function isDescendant(parent, child) {
   var node = child.parentNode;
   while (node != null) {
-    if (node == parent) {
+    if (node === parent) {
       return true;
     }
     node = node.parentNode;
