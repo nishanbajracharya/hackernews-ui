@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './styles/reboot.css';
+import './styles/style.css';
 
 import App from './app';
 import * as serviceWorker from './serviceWorker';
