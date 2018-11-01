@@ -1,7 +1,7 @@
 import React from "react";
-import http from "./http";
 import { Link } from "react-router-dom";
 
+import http from "../utils/http";
 import Arrow from "../components/arrow";
 import Loading, { LoadingSVG } from "../components/loading";
 

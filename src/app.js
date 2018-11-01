@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import List from './views/list';
+import Story from './views/story';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        App
-      </div>
+      <Router>
+        <div className="App">
+          <Route path="/" component={List} />
+          <Route path="/:storyId" component={Story} />
+        </div>
+      </Router>
     );
   }
 }
