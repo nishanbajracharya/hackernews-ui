@@ -70,10 +70,11 @@ class Story extends React.PureComponent {
   }
 
   onRequestClose = (e, bypassKey = false) => {
-    this.setState({ className: "" });
+    const escapePressed = (e.key === "Escape") || bypassKey;
+    escapePressed && this.setState({ className: "" });
     setTimeout(
       () =>
-        ((e && e.key === "Escape") || bypassKey) && this.props.history.goBack(),
+        escapePressed && this.props.history.goBack(),
       250
     );
   };
@@ -91,7 +92,7 @@ class Story extends React.PureComponent {
 
   onHandleOverlayClick = e => {
     if (e.target !== this.content && !isDescendant(this.content, e.target)) {
-      this.onRequestClose(null, true);
+      this.onRequestClose({}, true);
     }
   };
 
@@ -104,7 +105,7 @@ class Story extends React.PureComponent {
         >
           <Close
             className="close"
-            onClick={() => this.onRequestClose(null, true)}
+            onClick={() => this.onRequestClose({}, true)}
           />
           <h2>
             <a href={this.state.data.url} target="_blank" rel="noopener noreferrer">
