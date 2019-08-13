@@ -64,12 +64,13 @@ class List extends React.PureComponent {
 
   async componentDidMount() {
     const list = await http.get("/topstories.json");
-
     this.setState({ list, loading: false });
   }
 
   changePage = (by = 1) => {
     if (this.state.page === 0 && by === -1) return;
+
+    if (this.state.page + by > parseInt(this.state.list.length / this.state.pageSize)) return;
     this.setState({ page: this.state.page + by });
   };
 

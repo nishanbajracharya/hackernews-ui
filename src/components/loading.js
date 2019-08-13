@@ -34,7 +34,7 @@ const Loading = ({ className = "" }) => (
   <div className={`loading ${className}`} />
 );
 
-Loading.PropTypes = {
+Loading.propTypes = {
   className: PropTypes.string
 };
 
